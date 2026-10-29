@@ -4,3 +4,7 @@ fn main() {
     let depth = x[4] * y[4] / 2;
     println!("depth = {}", depth);
 }
+fn  calcDepth(x: i32, y: i32) -> i32 {
+    return x * y / 2;
+}
+calcDepth(1,2);
